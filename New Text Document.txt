@@ -1,0 +1,17 @@
+<p>
+                    Trees are the most important natural resource since they are a part of the ecosystem. 
+                    Forests are estimated to cover 30 percent of the planet's surface area. They absorb carbon 
+                    dioxide and create oxygen in the process. As well as its many other benefits, tress is a 
+                    valuable source of medicine, food, and fuel. Additionally, the forest assists in the filtration 
+                    and retention of water inside the soil.
+                   
+                </p> 
+                <p>
+                    Nowadays, people are cutting down trees for their own profit. These illegal activities are the 
+                    major reason for tree loss. When we look at deforestation in Sri Lanka, we observe allegations 
+                    of increased deforestation and illegal commercial or developmental operations in a range of sectors. 
+                    Since then, the issue has become tied to politics and specific political figures. Due to a lack of 
+                    political authority, the blame game has advanced. Recent talks have focused on the deforestation of 
+                    Wanathawillu, Anawilundawa, and Sinharaja.
+                </p>    
+                
