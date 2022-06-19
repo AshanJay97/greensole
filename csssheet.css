@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+nav img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 8px 12px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #0afd02;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+nav .fa{
+    display: none;
+}
+
+
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #f2f3f7;
+}
+
+h1{
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about .card{
+    width: 295px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, 
+                -0.5em -0.5em 1em #ffffff;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.about .card .cardinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about .card .cardinfo .imgbox {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.about .card .cardinfo .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .card .cardinfo .contentbox h4{
+    color: #187d36;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.about .card .cardinfo .contentbox h5{
+    color: #423e4b;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+.about .card .cardinfo .sci{
+    margin-top: 15px;
+}
+
+.about .card .cardinfo .sci a{
+    text-decoration: none;
+    color: #737275;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
